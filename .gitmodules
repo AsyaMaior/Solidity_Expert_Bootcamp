@@ -10,3 +10,6 @@
 [submodule "lesson_5/assembly_exercises/lib/forge-std"]
 	path = lesson_5/assembly_exercises/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "lesson_5/some_more_assembly/lib/forge-std"]
+	path = lesson_5/some_more_assembly/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

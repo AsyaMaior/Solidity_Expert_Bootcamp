@@ -23,3 +23,7 @@ Modify this function so that on overflow it returns the value 0, otherwise it sh
 4. [Scope](./src/Scope.sol)
 
 Modify state of the `count` variable from within the assembly segment
+
+---
+
+See Yul functions in [latest documentation](https://docs.soliditylang.org/en/latest/yul.html#evm-dialect)
