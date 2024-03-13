@@ -6,10 +6,11 @@ contract Scope {
     uint256 public count = 10;
 
     function increment(uint256 num) public {
-        // Modify state of the count variable from within
-        // the assembly segment
-        assembly {
 
+        assembly {
+            let _count := sload(0)
+            let new_count := add(_count, num)
+            sstore(0, new_count)
         }
     }
 }
