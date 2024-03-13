@@ -1,4 +1,4 @@
-## Assembly exercises completed
+## Completed assembly exercises supplemented by tests
 
 1. [Intro](./src/Intro.sol)
 
